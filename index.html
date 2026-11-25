@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f6e9e5">
+<title>Five Months With You ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<main>
+  <section class="intro-screen" id="intro">
+    <div class="tiny-label">A LITTLE SURPRISE FOR YOU</div>
+    <div class="flower">✿</div>
+    <h1>For my<br><em>favorite person.</em></h1>
+    <p class="intro-copy">A little late, but made with all my love.</p>
+    <button class="open-btn" id="openEnvelope">Open your letter <span>♡</span></button>
+    <div class="envelope-wrap" aria-hidden="true">
+      <div class="envelope"><div class="envelope-flap"></div><div class="envelope-heart">♡</div></div>
+    </div>
+    <div class="bottom-note">OUR LITTLE CHAPTER FIVE · 24</div>
+  </section>
+
+  <section class="letter-screen hidden" id="letterScreen">
+    <div class="letter-shell">
+      <div class="letter-heading"><span>A LETTER FOR YOU</span><span>24 · V</span></div>
+      <div class="letter-content">
+        <p class="salutation">To the love of my life,</p>
+        <p>Happy 5th monthsary to us, love. I know this little celebration is arriving a day late, but I still wanted to make something special for you. These past days have been busy, and I haven't been feeling well, but I didn't want this moment to pass without reminding you how much I appreciate having you in my life.</p>
+        <p>Five months may be just one chapter in our story, but it already holds so many memories, lessons, laughter, and moments that I want to keep close. I know we haven't always had the easiest days. We've had misunderstandings and tampuhan, but I hope we continue learning from them instead of letting the same things come between us.</p>
+        <p>I don't expect us to be perfect, love. I want us to keep understanding each other, communicating honestly, and making an effort to change the things that hurt us. I want us to grow together and build a relationship where we both feel appreciated, heard, and at peace.</p>
+        <p>I miss you, especially the moments when we're together and the little sadness that comes whenever we have to say goodbye again. I hope we get to make many more memories side by side.</p>
+        <p>Thank you for these five months, love. I love you so much, and I hope we keep choosing to make this love better, one day at a time.</p>
+        <p class="signature">mahal na mahal kita, loveee ♡</p>
+      </div>
+      <div class="letter-footer">MADE WITH LOVE · JUST FOR YOU</div>
+    </div>
+    <button class="continue-btn" id="continueBtn">Keep this moment going ↓</button>
+  </section>
+
+  <section class="memory-screen hidden" id="memoryScreen">
+    <div class="memory-title">
+      <div class="tiny-label">A SONG THAT REMINDS ME OF YOU</div>
+      <h2>Ikaw lang<br><em>patutunguhan.</em></h2>
+      <p>Five months of memories, and still so many places to go together.</p>
+    </div>
+    <div class="memory-layout">
+      <div class="photo-frame">
+        <div class="photo-inner">
+          <img src="assets/our-photo.jpg" alt="A photo of us together">
+          <div class="photo-shade"></div>
+          <div class="lyric-overlay" id="lyricOverlay">
+            <span class="lyric-kicker">A LITTLE LINE FOR YOU</span>
+            <div class="lyric-current" id="lyricCurrent">♡</div>
+            <div class="lyric-next" id="lyricNext"></div>
+          </div>
+        </div>
+        <div class="photo-caption">one of my favorite memories ♡</div>
+      </div>
+      <div class="side-note">
+        <div class="tiny-label">OUR FIFTH MONTH</div>
+        <h3>Wherever life takes us,</h3>
+        <p>I hope we keep finding our way back to understanding, choosing, and appreciating each other.</p>
+        <div class="music-status"><span class="sound-dot" id="soundDot"></span><span id="musicStatus">Waiting for our song…</span></div>
+        <div class="player">
+          <button id="playPause" aria-label="Play or pause music">▶</button>
+          <div class="track-info"><strong>Ikaw Lang Patutunguhan</strong><small>Amiel Sol</small></div>
+          <div class="music-time" id="musicTime">00:50</div>
+        </div>
+      </div>
+    </div>
+    <audio id="song" preload="auto" src="assets/our-song.mp3"></audio>
+  </section>
+
+  <section class="ending hidden" id="ending">
+    <div class="end-heart">♡</div>
+    <div class="tiny-label">CHAPTER FIVE</div>
+    <h2>Here's to more<br><em>chapters with you.</em></h2>
+    <p>No matter how slowly we get there, I hope we're always moving toward something better together.</p>
+    <div class="end-sign">Happy 5th monthsary, my love.</div>
+    <button class="again-btn" id="againBtn">Read it again ↑</button>
+  </section>
+</main>
+<script src="script.js"></script>
+</body></html>
